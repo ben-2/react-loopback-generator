@@ -32,6 +32,7 @@ class AppRoot extends React.Component {
     history: React.PropTypes.object.isRequired, // eslint-disable-line
   };
 
+
   constructor(props) {
     super(props);
     this.routes = routes;
